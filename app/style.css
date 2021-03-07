@@ -7,13 +7,22 @@ body{
     font-family: 'Permanent Marker', cursive;
     background-color: yellow;
 }
+.container{
+    margin: 5% auto;
+    width: 30%;
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
 p{
     color: #f10000;
-    margin: 5% 40%;
-    font-size: 30px;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 15px;
 }
 button{
-    margin: 0 45%;
     border-radius: 25px;
     background-color: #d4d4d4;
     color: #4f4f4f;
@@ -22,24 +31,32 @@ button{
     padding: 2px;
     outline: none;
     width: 120px;
-    height: 50px;
+    height: 45px;
     border: none;
     cursor: pointer;
 }
 button:hover{
-    /*border: 1px solid #4f4f4f;*/
-    background-color: #f10000;
+    background-color: #a8a1a5;
     color: #d4d4d4;
 }
-.container{
-    margin: auto;
-    width: 60%;
-    font-size: 20px;
-    padding: 5px;
+.play_again{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: 5% auto;
+    background-color: #f10000;
+    color: lightgray;
+
+}
+.choices{
     display: flex;
     justify-content: space-between;
-    /*background-color: lightgray;*/
+    padding: 5px;
+    width: 50%;
+    margin: auto;
 }
-section{
-    color: #4f4f4f;
+.Result{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5%;
 }
