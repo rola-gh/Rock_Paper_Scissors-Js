@@ -7,7 +7,7 @@ var options = ["Rock", "Paper", "Scissors" ];
 var container = document.querySelector(".container");
 var player_choice = document.querySelector(".player-choice");
 var computer_choice = document.querySelector(".pc-choice");
-var result = document.querySelector(".Result");
+var result = document.querySelector(".res");
 
 
 for(let i = 0; i<options.length ; i++ ){

@@ -6,7 +6,6 @@
 body{
     font-family: 'Architects Daughter', cursive;
     font-weight: bold;
-    /*background-color: yellow;*/
     background-image: url("./../assets/Bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,7 +24,9 @@ p{
     font-size: 35px;
     text-align: center;
     margin-top: 30px;
-    animation: fade-in-move-down 1s;
+    /*animation: fade-in-move-down 1s;*/
+    animation: text 3s 1;
+    letter-spacing: 8px;
 }
 
 button{
@@ -66,6 +67,10 @@ button:hover{
     font-size: 30px;
     margin-top: 5%;
 }
+.res{
+    /*color: #f10000;*/
+    animation: text 3s 1;
+}
 @keyframes fade-in-move-down {
     0% {
         opacity: 0;
@@ -74,5 +79,18 @@ button:hover{
     100% {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+@keyframes text {
+    0%{
+        color: #000;
+    }
+
+    30%{
+        letter-spacing: 25px;
+    }
+
+    85%{
+        letter-spacing: 8px;
     }
 }
