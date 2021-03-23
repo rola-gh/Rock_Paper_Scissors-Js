@@ -5,8 +5,8 @@ var Scissors  = document.createElement("BUTTON");
 var options = ["Rock", "Paper", "Scissors" ];
 
 var container = document.querySelector(".container");
-var player_choice = document.querySelector(".player-Choice");
-var computer_choice = document.querySelector(".computer-Choice");
+var player_choice = document.querySelector(".player-choice");
+var computer_choice = document.querySelector(".pc-choice");
 var result = document.querySelector(".Result");
 
 
