@@ -28,7 +28,14 @@ p{
     animation: text 3s 1;
     letter-spacing: 8px;
 }
-
+h3{
+    text-align: center;
+    margin-top: 2%;
+    background-color: #f18b41;
+    border-top-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    /*height: 50px;*/
+}
 button{
     border-radius: 25px;
     background-color: #d4d4d4;
@@ -50,10 +57,10 @@ button:hover{
     position: relative;
     display: block;
     text-align: center;
-    margin: 5% auto;
-    background-color: #f10000;
-    color: lightgray;
-
+    margin: 7% auto;
+    width:150px;
+    height: 50px;
+    background-color: #f18b41;
 }
 .choices{
     display: flex;
@@ -64,12 +71,16 @@ button:hover{
 }
 .Result{
     text-align: center;
-    font-size: 30px;
+    /*font-size: 30px;*/
     margin-top: 5%;
 }
 .res{
     /*color: #f10000;*/
-    animation: text 3s 1;
+    /*animation: text 3s 1;*/
+    width: 150px;
+    display: block;
+    margin: 1% auto;
+    text-align: center;
 }
 @keyframes fade-in-move-down {
     0% {
